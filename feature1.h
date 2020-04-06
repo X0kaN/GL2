@@ -1,7 +1,7 @@
-#pragma once
-#include "feature1.h" 
-#include <cmath> 
-double Sum(double a, double b)
-{
-    return a + b;
-}
+#ifndef __FEATURE1_H__
+#define __FEATURE1_H__  
+
+double Sum(double, double);
+double Sub(double, double);
+
+#endif // __FEATURE1_H__ 
