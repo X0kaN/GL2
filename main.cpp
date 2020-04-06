@@ -28,13 +28,13 @@ int main()
         std::cout << Sum(a,b);
         break;
     case 2:
-        std::cout << "В разработке";
+        std::cout << Sub(a,b);
         break;
     case 3:
         std::cout << Pro(a,b);
         break;
     case 4:
-        std::cout << "В разработке";
+        std::cout << Del(a,b);
         break;
     }
 }
