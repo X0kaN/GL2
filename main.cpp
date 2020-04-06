@@ -1,3 +1,8 @@
+//Release1
+#include "feature1.h"
+#include "feature2.h"
+#include "feature1.cpp"
+#include "feature2.cpp"
 #include <iostream>
 #include <cmath>
 double a, b;
@@ -21,13 +26,13 @@ int main()
 
     switch (c) {
     case 1:
-        std::cout << "В разработке";
+        std::cout << Sum(a,b);
         break;
     case 2:
         std::cout << "В разработке";
         break;
     case 3:
-        std::cout << "В разработке";
+        std::cout << Pro(a,b);
         break;
     case 4:
         std::cout << "В разработке";
